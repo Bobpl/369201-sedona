@@ -121,7 +121,7 @@ background: rgb(129, 179, 210);
   font-weight: bold;
   text-transform: uppercase;
   float: left;
-margin-top: 217px;
+  margin-top: 217px;
   color: rgb(255, 255, 255);
 }
 .img_sity {
@@ -172,6 +172,82 @@ section {
     clear: both;
     margin-bottom: 33px;
   margin-left: 50px;
+  }
+  .container_logo b{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 21px;
+    font-family: "PT Sans";
+    font-weight:bold;
+    margin-top: 33px;
+  }
+  .container_logo p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "PT Sans";
+    margin-top: 33px;
+    margin-bottom: 0;
+  }
+  .bridge{
+  width: 400px;
+  height: 256px;
+  background: rgb(129, 179, 210);
+    font-size: 21px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+      }
 
+  }
+  .bridge h2{
+    padding-top: : 50px;
+    font-size: 21px;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+   .bridge div{
+     padding-top: 28px;
+    font-size: 14px;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: center;
+  }
+  .threenumber{
+    width: 1200px;
+    height: 256px;
+    display: block;
+    background: rgb(238, 238, 238);
+    margin-top: -5px;
 
+  }
+  .threenumber div{
+    display: inline-block;
+    margin: 0 auto;
+    width: 33%;
+  }
+  .threenumber b{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 21px;
+    font-family: "PT Sans";
+    font-weight:bold;
+  }
+  .threenumber p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "PT Sans";
+    margin-top: 33px;
   }
