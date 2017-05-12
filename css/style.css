@@ -150,9 +150,28 @@ section {
   width: 1200px;
   height: 330px;
   display: inline-block;
+  text-align: center;
   }
   section div{
     display: block;
     width: 33%;
+
+  }
+  .container_logo{
+    margin-top: 60px;
+    width: 1200px;
+    height: 330px;
+    display: inline-block;
+    }
+  .container_logo div{
+    margin: 0 auto;
+    width: 33%;
+    float: left;
+    }
+  .container_logo img{
+    clear: both;
+    margin-bottom: 33px;
+  margin-left: 50px;
+
 
   }
