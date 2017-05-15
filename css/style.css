@@ -38,8 +38,9 @@ font-family: PT Sans, Arial, sans-serif;
 }
 .logo{
   position: absolute;
+  left: 50%;
+transform: translateX(-50%);
   top:0;
-  left:900px;
 z-index: 1;
 }
 .intro{
@@ -85,10 +86,9 @@ text-align: center;
 }
 }
 .intro_text_sedona {
-    width: 1200px;
-     height: 74px;
-    margin-left: 600px;
-     padding: 58PX;
+    width: 458px;
+    margin: 0 auto;
+
 }
 .intro_text_slogan {
   width: 296px;
@@ -113,9 +113,13 @@ text-align: center;
     text-align: center;
       color: rgb(51, 51, 51);
   }
+  .first_fact{
+display: flex;
+  }
 .real_town{
-width: 400px;
+width: 33.3%;
 height: 256px;
+box-sizing: border-box;
 background: rgb(129, 179, 210);
   font-size: 21px;
   font-family: "PT Sans";
@@ -125,11 +129,16 @@ background: rgb(129, 179, 210);
   color: rgb(255, 255, 255);
 }
 .img_sity {
-  margin-top: 198px;
+  display: flex;
+  align-items: center;
+  width: 66.6%;
+  height: 256px;
+  overflow: hidden;
 
 }
 .real_town h2{
-  padding-top: : 50px;
+  padding-top:50px;
+
   font-size: 21px;
   font-family: "PT Sans";
   color: rgb(255, 255, 255);
@@ -137,8 +146,16 @@ background: rgb(129, 179, 210);
   text-transform: uppercase;
   text-align: center;
 }
- .real_town div{
-   padding-top: 28px;
+.single-promo1number{
+text-align: center;.
+font-size: 14px;
+font-family: "PT Sans";
+color: rgb(255, 255, 255);
+font-weight: normal;
+text-transform: uppercase;
+text-align: center;
+}
+ .facts_desk{
   font-size: 14px;
   font-family: "PT Sans";
   color: rgb(255, 255, 255);
@@ -146,13 +163,13 @@ background: rgb(129, 179, 210);
   text-transform: uppercase;
   text-align: center;
 }
-section {
+section container_logo {
   width: 1200px;
   height: 330px;
   display: inline-block;
   text-align: center;
   }
-  section div{
+  section container_logo div{
     display: block;
     width: 33%;
 
